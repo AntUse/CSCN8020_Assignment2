@@ -5,24 +5,46 @@
 **Course:** CSCN8020 - Reinforcement Learning Programming  
 
 ## Project summary
-This project implements tabular Q-learning for Gymnasium's Taxi-v3 environment. The agent learns to navigate a 5 x 5 grid, pick up a passenger, and complete a correct drop-off while minimizing wasted movement and illegal pickup or drop-off actions. The notebook uses an object-oriented design, records an execution log, and reports real outcomes for the required baseline, learning-rate, exploration-factor, and best-combination experiments. It also explains Taxi's 500-state / 6-action representation, maps each Python stage to Q-learning pseudocode, presents metrics and plots, and evaluates the final learned policy greedily to separate learned performance from training-time exploration.
+This project implements tabular Q-learning for Gymnasium's Taxi-v3 environment. The agent learns to navigate a 5 x 5 grid, pick up a passenger, and complete a correct drop-off while minimizing wasted movement and illegal pickup or drop-off actions. The notebook uses an object-oriented design, records an execution log, and reports measured outcomes for the required baseline, learning-rate, exploration-factor, and best-combination experiments. It explains Taxi's 500-state / 6-action representation, maps Python stages to Q-learning pseudocode, presents metrics and plots, and evaluates the final learned policy greedily to separate learned performance from training-time exploration.
 
 ## Repository links
 - Repository: https://github.com/chooksemmanuel/CSCN8020_Assignment2
 - Cloneable URL: https://github.com/chooksemmanuel/CSCN8020_Assignment2.git
 
 ## How to run
-1. Clone the repository.
-2. Create and activate a Python virtual environment.
-3. Install dependencies:
+1. Clone the repository and move into the project folder.
+
+   ```bash
+   git clone https://github.com/chooksemmanuel/CSCN8020_Assignment2.git
+   cd CSCN8020_Assignment2
+   ```
+
+2. Create and activate a virtual environment.
+
+   ```bash
+   python -m venv .venv
+   ```
+
+   Windows PowerShell:
+
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+
+   macOS/Linux:
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. Install the required packages and open the notebook.
+
    ```bash
    pip install -r requirements.txt
+   jupyter notebook CSCN8020_Assignment2_Q_Learning_Taxi.ipynb
    ```
-4. Start Jupyter Notebook or JupyterLab.
-5. Open `CSCN8020_Assignment2_Q_Learning_Taxi.ipynb`.
-6. Run all cells from top to bottom.
 
-The notebook regenerates plots in `assets/plots/`, writes execution details to `logs/qlearning_experiments.log`, and saves the final experiment table to `results/experiment_summary.csv`.
+4. Run all notebook cells from top to bottom. The notebook regenerates plots in `assets/plots/`, writes execution details to `logs/qlearning_experiments.log`, and saves the final experiment table to `results/experiment_summary.csv`.
 
 ## Major files
 - `CSCN8020_Assignment2_Q_Learning_Taxi.ipynb` - full implementation, explanations, controlled experiments, plots, and final evaluation.
