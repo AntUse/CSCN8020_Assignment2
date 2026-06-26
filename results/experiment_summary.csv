@@ -1,8 +1,0 @@
-experiment,alpha,epsilon,gamma,episodes,training_mean_return_last_window,training_mean_steps_last_window,training_success_rate_last_window,training_mean_illegal_actions_last_window,training_truncation_rate_last_window,evaluation_episodes,evaluation_mean_return,evaluation_mean_steps,evaluation_success_rate,evaluation_mean_illegal_actions
-Baseline,0.1,0.1,0.9,2000,0.474,16.026,1.0,0.5,0.0,100.0,-12.48,31.38,0.9,0.0
-Alpha = 0.01,0.01,0.1,0.9,2000,-195.922,151.768,0.582,6.264,0.426,100.0,-235.64,200.0,0.0,3.96
-Alpha = 0.001,0.001,0.1,0.9,2000,-254.158,183.088,0.172,8.298,0.83,100.0,-218.0,200.0,0.0,2.0
-Alpha = 0.2,0.2,0.1,0.9,2000,2.192,14.848,1.0,0.44,0.0,100.0,8.35,12.65,1.0,0.0
-Epsilon = 0.2,0.1,0.2,0.9,2000,-7.45,18.352,1.0,1.122,0.0,100.0,-24.84,42.48,0.84,0.0
-Epsilon = 0.3,0.1,0.3,0.9,2000,-16.556,20.708,1.0,1.872,0.0,100.0,-20.7,38.76,0.86,0.0
-Best combination,0.2,0.1,0.9,2000,2.192,14.848,1.0,0.44,0.0,100.0,8.35,12.65,1.0,0.0

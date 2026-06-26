@@ -1,0 +1,105 @@
+2026-06-26 08:05:33 | INFO    | Baseline (α=0.1, ε=0.1) | ============================================================
+2026-06-26 08:05:33 | INFO    | Baseline (α=0.1, ε=0.1) | EXPERIMENT: Baseline (α=0.1, ε=0.1)
+2026-06-26 08:05:33 | INFO    | Baseline (α=0.1, ε=0.1) | Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:05:33 | INFO    | Baseline (α=0.1, ε=0.1) | Training started.
+2026-06-26 08:05:33 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   1000 | Avg reward (last 1000): -13.28 | Steps: 14
+2026-06-26 08:05:34 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   2000 | Avg reward (last 1000): +2.30 | Steps: 16
+2026-06-26 08:05:34 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   3000 | Avg reward (last 1000): +2.49 | Steps: 15
+2026-06-26 08:05:35 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   4000 | Avg reward (last 1000): +2.65 | Steps: 13
+2026-06-26 08:05:35 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   5000 | Avg reward (last 1000): +2.85 | Steps: 13
+2026-06-26 08:05:35 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   6000 | Avg reward (last 1000): +2.66 | Steps: 14
+2026-06-26 08:05:36 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   7000 | Avg reward (last 1000): +2.54 | Steps: 15
+2026-06-26 08:05:36 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   8000 | Avg reward (last 1000): +2.35 | Steps: 14
+2026-06-26 08:05:36 | INFO    | Baseline (α=0.1, ε=0.1) | Episode   9000 | Avg reward (last 1000): +2.62 | Steps: 15
+2026-06-26 08:05:37 | INFO    | Baseline (α=0.1, ε=0.1) | Episode  10000 | Avg reward (last 1000): +2.24 | Steps: 15
+2026-06-26 08:05:37 | INFO    | Baseline (α=0.1, ε=0.1) | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
+2026-06-26 08:05:38 | INFO    | α=0.01 | ============================================================
+2026-06-26 08:05:38 | INFO    | α=0.01 | EXPERIMENT: α=0.01
+2026-06-26 08:05:38 | INFO    | α=0.01 | Hyperparameters: {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.1, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:05:38 | INFO    | α=0.01 | Training started.
+2026-06-26 08:05:40 | INFO    | α=0.01 | Episode   1000 | Avg reward (last 1000): -123.03 | Steps: 16
+2026-06-26 08:05:40 | INFO    | α=0.01 | Episode   2000 | Avg reward (last 1000): +1.39 | Steps: 13
+2026-06-26 08:05:41 | INFO    | α=0.01 | Episode   3000 | Avg reward (last 1000): +2.45 | Steps: 13
+2026-06-26 08:05:41 | INFO    | α=0.01 | Episode   4000 | Avg reward (last 1000): +2.57 | Steps: 15
+2026-06-26 08:05:42 | INFO    | α=0.01 | Episode   5000 | Avg reward (last 1000): +2.33 | Steps: 13
+2026-06-26 08:05:42 | INFO    | α=0.01 | Episode   6000 | Avg reward (last 1000): +2.30 | Steps: 13
+2026-06-26 08:05:42 | INFO    | α=0.01 | Episode   7000 | Avg reward (last 1000): +2.93 | Steps: 13
+2026-06-26 08:05:43 | INFO    | α=0.01 | Episode   8000 | Avg reward (last 1000): +2.44 | Steps: 14
+2026-06-26 08:05:43 | INFO    | α=0.01 | Episode   9000 | Avg reward (last 1000): +2.70 | Steps: 13
+2026-06-26 08:05:43 | INFO    | α=0.01 | Episode  10000 | Avg reward (last 1000): +2.48 | Steps: 15
+2026-06-26 08:05:43 | INFO    | α=0.01 | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
+2026-06-26 08:05:43 | INFO    | α=0.001 | ============================================================
+2026-06-26 08:05:43 | INFO    | α=0.001 | EXPERIMENT: α=0.001
+2026-06-26 08:05:43 | INFO    | α=0.001 | Hyperparameters: {'alpha': 0.001, 'gamma': 0.9, 'epsilon': 0.1, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:05:43 | INFO    | α=0.001 | Training started.
+2026-06-26 08:05:47 | INFO    | α=0.001 | Episode   1000 | Avg reward (last 1000): -264.64 | Steps: 174
+2026-06-26 08:05:51 | INFO    | α=0.001 | Episode   2000 | Avg reward (last 1000): -241.09 | Steps: 143
+2026-06-26 08:05:54 | INFO    | α=0.001 | Episode   3000 | Avg reward (last 1000): -203.60 | Steps: 42
+2026-06-26 08:05:57 | INFO    | α=0.001 | Episode   4000 | Avg reward (last 1000): -157.20 | Steps: 151
+2026-06-26 08:05:59 | INFO    | α=0.001 | Episode   5000 | Avg reward (last 1000): -111.76 | Steps: 125
+2026-06-26 08:06:00 | INFO    | α=0.001 | Episode   6000 | Avg reward (last 1000): -76.09 | Steps: 96
+2026-06-26 08:06:01 | INFO    | α=0.001 | Episode   7000 | Avg reward (last 1000): -53.48 | Steps: 45
+2026-06-26 08:06:02 | INFO    | α=0.001 | Episode   8000 | Avg reward (last 1000): -40.62 | Steps: 25
+2026-06-26 08:06:03 | INFO    | α=0.001 | Episode   9000 | Avg reward (last 1000): -28.80 | Steps: 19
+2026-06-26 08:06:04 | INFO    | α=0.001 | Episode  10000 | Avg reward (last 1000): -16.68 | Steps: 14
+2026-06-26 08:06:04 | INFO    | α=0.001 | Training complete. Total episodes: 10000 | Avg eval reward: -200.00
+2026-06-26 08:06:04 | INFO    | α=0.2 | ============================================================
+2026-06-26 08:06:04 | INFO    | α=0.2 | EXPERIMENT: α=0.2
+2026-06-26 08:06:04 | INFO    | α=0.2 | Hyperparameters: {'alpha': 0.2, 'gamma': 0.9, 'epsilon': 0.1, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:06:04 | INFO    | α=0.2 | Training started.
+2026-06-26 08:06:05 | INFO    | α=0.2 | Episode   1000 | Avg reward (last 1000): -7.52 | Steps: 13
+2026-06-26 08:06:05 | INFO    | α=0.2 | Episode   2000 | Avg reward (last 1000): +2.38 | Steps: 16
+2026-06-26 08:06:05 | INFO    | α=0.2 | Episode   3000 | Avg reward (last 1000): +2.52 | Steps: 17
+2026-06-26 08:06:06 | INFO    | α=0.2 | Episode   4000 | Avg reward (last 1000): +2.59 | Steps: 14
+2026-06-26 08:06:06 | INFO    | α=0.2 | Episode   5000 | Avg reward (last 1000): +2.78 | Steps: 13
+2026-06-26 08:06:06 | INFO    | α=0.2 | Episode   6000 | Avg reward (last 1000): +2.45 | Steps: 16
+2026-06-26 08:06:07 | INFO    | α=0.2 | Episode   7000 | Avg reward (last 1000): +2.50 | Steps: 13
+2026-06-26 08:06:07 | INFO    | α=0.2 | Episode   8000 | Avg reward (last 1000): +2.59 | Steps: 13
+2026-06-26 08:06:07 | INFO    | α=0.2 | Episode   9000 | Avg reward (last 1000): +2.60 | Steps: 14
+2026-06-26 08:06:08 | INFO    | α=0.2 | Episode  10000 | Avg reward (last 1000): +2.35 | Steps: 13
+2026-06-26 08:06:08 | INFO    | α=0.2 | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
+2026-06-26 08:06:08 | INFO    | ε=0.2 | ============================================================
+2026-06-26 08:06:08 | INFO    | ε=0.2 | EXPERIMENT: ε=0.2
+2026-06-26 08:06:08 | INFO    | ε=0.2 | Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.2, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:06:08 | INFO    | ε=0.2 | Training started.
+2026-06-26 08:06:08 | INFO    | ε=0.2 | Episode   1000 | Avg reward (last 1000): -24.01 | Steps: 15
+2026-06-26 08:06:09 | INFO    | ε=0.2 | Episode   2000 | Avg reward (last 1000): -4.80 | Steps: 14
+2026-06-26 08:06:09 | INFO    | ε=0.2 | Episode   3000 | Avg reward (last 1000): -4.14 | Steps: 13
+2026-06-26 08:06:10 | INFO    | ε=0.2 | Episode   4000 | Avg reward (last 1000): -4.48 | Steps: 16
+2026-06-26 08:06:10 | INFO    | ε=0.2 | Episode   5000 | Avg reward (last 1000): -4.92 | Steps: 16
+2026-06-26 08:06:10 | INFO    | ε=0.2 | Episode   6000 | Avg reward (last 1000): -5.29 | Steps: 14
+2026-06-26 08:06:11 | INFO    | ε=0.2 | Episode   7000 | Avg reward (last 1000): -5.12 | Steps: 21
+2026-06-26 08:06:11 | INFO    | ε=0.2 | Episode   8000 | Avg reward (last 1000): -4.94 | Steps: 14
+2026-06-26 08:06:12 | INFO    | ε=0.2 | Episode   9000 | Avg reward (last 1000): -5.33 | Steps: 16
+2026-06-26 08:06:12 | INFO    | ε=0.2 | Episode  10000 | Avg reward (last 1000): -4.53 | Steps: 24
+2026-06-26 08:06:12 | INFO    | ε=0.2 | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
+2026-06-26 08:06:12 | INFO    | ε=0.3 | ============================================================
+2026-06-26 08:06:12 | INFO    | ε=0.3 | EXPERIMENT: ε=0.3
+2026-06-26 08:06:12 | INFO    | ε=0.3 | Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.3, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:06:12 | INFO    | ε=0.3 | Training started.
+2026-06-26 08:06:13 | INFO    | ε=0.3 | Episode   1000 | Avg reward (last 1000): -36.62 | Steps: 15
+2026-06-26 08:06:13 | INFO    | ε=0.3 | Episode   2000 | Avg reward (last 1000): -14.48 | Steps: 18
+2026-06-26 08:06:14 | INFO    | ε=0.3 | Episode   3000 | Avg reward (last 1000): -13.35 | Steps: 17
+2026-06-26 08:06:14 | INFO    | ε=0.3 | Episode   4000 | Avg reward (last 1000): -14.11 | Steps: 20
+2026-06-26 08:06:14 | INFO    | ε=0.3 | Episode   5000 | Avg reward (last 1000): -13.95 | Steps: 20
+2026-06-26 08:06:15 | INFO    | ε=0.3 | Episode   6000 | Avg reward (last 1000): -15.40 | Steps: 21
+2026-06-26 08:06:15 | INFO    | ε=0.3 | Episode   7000 | Avg reward (last 1000): -13.80 | Steps: 18
+2026-06-26 08:06:16 | INFO    | ε=0.3 | Episode   8000 | Avg reward (last 1000): -15.19 | Steps: 20
+2026-06-26 08:06:16 | INFO    | ε=0.3 | Episode   9000 | Avg reward (last 1000): -14.34 | Steps: 25
+2026-06-26 08:06:17 | INFO    | ε=0.3 | Episode  10000 | Avg reward (last 1000): -14.46 | Steps: 15
+2026-06-26 08:06:17 | INFO    | ε=0.3 | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
+2026-06-26 08:06:18 | INFO    | Best (α=0.15, ε=0.08) | ============================================================
+2026-06-26 08:06:18 | INFO    | Best (α=0.15, ε=0.08) | EXPERIMENT: Best (α=0.15, ε=0.08)
+2026-06-26 08:06:18 | INFO    | Best (α=0.15, ε=0.08) | Hyperparameters: {'alpha': 0.15, 'gamma': 0.9, 'epsilon': 0.08, 'n_episodes': 10000, 'max_steps': 200}
+2026-06-26 08:06:18 | INFO    | Best (α=0.15, ε=0.08) | Training started.
+2026-06-26 08:06:19 | INFO    | Best (α=0.15, ε=0.08) | Episode   1000 | Avg reward (last 1000): -7.93 | Steps: 15
+2026-06-26 08:06:19 | INFO    | Best (α=0.15, ε=0.08) | Episode   2000 | Avg reward (last 1000): +3.61 | Steps: 13
+2026-06-26 08:06:20 | INFO    | Best (α=0.15, ε=0.08) | Episode   3000 | Avg reward (last 1000): +3.95 | Steps: 13
+2026-06-26 08:06:20 | INFO    | Best (α=0.15, ε=0.08) | Episode   4000 | Avg reward (last 1000): +3.73 | Steps: 13
+2026-06-26 08:06:20 | INFO    | Best (α=0.15, ε=0.08) | Episode   5000 | Avg reward (last 1000): +3.82 | Steps: 13
+2026-06-26 08:06:21 | INFO    | Best (α=0.15, ε=0.08) | Episode   6000 | Avg reward (last 1000): +3.66 | Steps: 14
+2026-06-26 08:06:21 | INFO    | Best (α=0.15, ε=0.08) | Episode   7000 | Avg reward (last 1000): +3.90 | Steps: 13
+2026-06-26 08:06:21 | INFO    | Best (α=0.15, ε=0.08) | Episode   8000 | Avg reward (last 1000): +3.56 | Steps: 15
+2026-06-26 08:06:22 | INFO    | Best (α=0.15, ε=0.08) | Episode   9000 | Avg reward (last 1000): +3.88 | Steps: 16
+2026-06-26 08:06:22 | INFO    | Best (α=0.15, ε=0.08) | Episode  10000 | Avg reward (last 1000): +3.66 | Steps: 14
+2026-06-26 08:06:22 | INFO    | Best (α=0.15, ε=0.08) | Training complete. Total episodes: 10000 | Avg eval reward: 8.00
