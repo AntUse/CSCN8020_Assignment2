@@ -65,12 +65,12 @@ https://github.com/AntUse/CSCN8020_Assignment2.git
 ```
 CSCN8020_Assignment2/
 ├── CSCN8020_Assignment2.ipynb   # Main Jupyter Notebook (full solution)
-├── training.log                  # Log file generated during training
-├── plots_baseline.png            # Baseline training metrics plots
-├── plots_lr_comparison.png       # Learning rate experiment comparison
-├── plots_eps_comparison.png      # Exploration factor experiment comparison
-├── plots_best_combination.png    # Best combination training metrics
-├── plots_best_vs_baseline.png    # Best combination vs baseline comparison
+├── (Logs) training.log                  # Log file generated during training
+├── (assets/plots) plots_baseline.png            # Baseline training metrics plots
+├── (assets/plots) plots_lr_comparison.png       # Learning rate experiment comparison
+├── (assets/plots) plots_eps_comparison.png      # Exploration factor experiment comparison
+├── (assets/plots) plots_best_combination.png    # Best combination training metrics
+├── (assets/plots) plots_best_vs_baseline.png    # Best combination vs baseline comparison
 ├── README.md                     # This file
 ├── requirements.txt              # Python dependencies
 └── .gitignore                    # Git ignore rules
